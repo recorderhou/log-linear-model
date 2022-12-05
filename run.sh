@@ -1,0 +1,2 @@
+python code_sample.py --dataset=sst --data_dir=data/sst_ --epochs=20 --lemma=True --bigram=True --least=10 --most=1000 --batch_size=1024
+python code_sample.py --dataset=yelp --data_dir=data/yelp_ --epochs=1 --lemma=True --bigram=True --trigram=True --least=2000 --most=3000 --batch_size=2
